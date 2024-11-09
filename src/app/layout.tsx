@@ -15,9 +15,9 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title:
-    "Personalized Diet Plans for PCOS, Diabetes, and Muscle Gain | NutiPlan",
+    "Personalized Diet Plans for PCOS, Diabetes, and Muscle Gain | NutriPlan",
   description:
-    "Discover tailored diet plans for PCOS, diabetes, and muscle gain. Customize your meal plans and start your wellness journey with Nutiplan.",
+    "Discover tailored diet plans for PCOS, diabetes, and muscle gain. Customize your meal plans and start your wellness journey with Nutriplan.",
 };
 
 export default function RootLayout({
