@@ -5,10 +5,10 @@ import {
   ArrowRight,
   Utensils,
   Activity,
-  Dumbbell,
   CheckCircle,
   Users,
   Star,
+  Weight,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -34,9 +34,9 @@ export function BlockPage() {
       description: "Glucose-conscious meal plans",
     },
     {
-      name: "Muscle Gain",
-      icon: Dumbbell,
-      description: "Protein-rich diets for muscle building",
+      name: "Weight Loss",
+      icon: Weight,
+      description: "Lose weight and build muscle",
     },
   ];
 
