@@ -8,9 +8,9 @@ body {
 
 @layer base {
   :root {
-    --background: 0 90% 97%; /* Richer light reddish background */
+    --background: 0 0% 100%; /* Pure white background */
     --foreground: 0 0% 10%; /* Darker foreground */
-    --card: 0 90% 99%; /* Slightly more intense light red for cards */
+    --card: 0 90% 99%; /* Light red for cards */
     --card-foreground: 0 0% 10%; /* Dark text on cards */
     --popover: 0 90% 99%;
     --popover-foreground: 0 0% 10%;
@@ -35,7 +35,7 @@ body {
     --radius: 0.5rem;
   }
   .dark {
-    --background: 0 0% 10%; /* Darker reddish background */
+    --background: 0 0% 10%; /* Dark reddish background */
     --foreground: 0 0% 100%;
     --card: 0 0% 15%;
     --card-foreground: 0 0% 100%;

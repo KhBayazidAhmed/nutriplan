@@ -83,10 +83,7 @@ export function BlockPage() {
                   </p>
                 </CardContent>
                 <CardFooter>
-                  <Link
-                    href={`/plan-selection?category=${category.name.toLowerCase()}`}
-                    className="w-full"
-                  >
+                  <Link href={`/customize`} className="w-full">
                     <Button className="w-full">
                       Select Plan <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
