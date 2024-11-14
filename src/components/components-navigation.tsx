@@ -16,10 +16,10 @@ export function Navigation() {
         <div className="flex h-16 items-center justify-between">
           <Link
             href="/"
-            className="text-xl flex justify-center  items-center font-bold text-primary"
+            className="text-xl flex justify-center   items-center font-bold text-primary"
           >
-            <Image width={80} height={40} alt="Daily Bowl" src={Logo} />
-            Daily Bowl
+            <Image width={70} height={40} alt="Daily Bowl" src={Logo} />
+            <span className="adlery-pro font-bold">Daily Bowl</span>
           </Link>
           <nav className="hidden md:flex items-center space-x-4 text-sm font-medium">
             <Link

@@ -12,7 +12,11 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
-
+const adlery_pro = localFont({
+  src: "./fonts/adlery-pro.swash.woff",
+  variable: "--font-adlery-pro",
+  weight: "400 700 900",
+});
 export const metadata: Metadata = {
   title:
     "Personalized Diet Plans for PCOS, Diabetes, and Muscle Gain | NutriPlan",
@@ -28,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${adlery_pro.variable} antialiased`}
       >
         {children}
       </body>

@@ -8,57 +8,57 @@ body {
 
 @layer base {
   :root {
-    --background: 0 100% 97%; /* Light reddish background */
+    --background: 0 90% 97%; /* Richer light reddish background */
     --foreground: 0 0% 10%; /* Darker foreground */
-    --card: 0 100% 99%; /* Light red for cards */
+    --card: 0 90% 99%; /* Slightly more intense light red for cards */
     --card-foreground: 0 0% 10%; /* Dark text on cards */
-    --popover: 0 100% 99%;
+    --popover: 0 90% 99%;
     --popover-foreground: 0 0% 10%;
-    --primary: 0 80% 60%; /* Primary red */
+    --primary: 0 90% 55%; /* Deeper primary red */
     --primary-foreground: 0 0% 100%;
-    --secondary: 0 15% 95%; /* Light greyish red */
+    --secondary: 0 30% 90%; /* Subtle greyish red */
     --secondary-foreground: 0 0% 10%;
-    --muted: 0 20% 90%; /* Soft muted red */
+    --muted: 0 25% 85%; /* Soft muted red */
     --muted-foreground: 0 0% 40%;
-    --accent: 0 60% 65%; /* Accent red */
+    --accent: 0 70% 65%; /* Brighter accent red */
     --accent-foreground: 0 0% 10%;
-    --destructive: 0 70% 50%; /* Strong red for destructive actions */
+    --destructive: 0 80% 50%; /* Stronger red for destructive actions */
     --destructive-foreground: 0 0% 100%;
-    --border: 0 0% 80%; /* Light red for borders */
-    --input: 0 0% 80%;
-    --ring: 0 0% 10%; /* Darker for focus ring */
-    --chart-1: 0 70% 50%; /* Chart reds and complements */
-    --chart-2: 15 80% 60%;
-    --chart-3: 25 85% 70%;
-    --chart-4: 350 75% 55%;
-    --chart-5: 330 80% 65%;
+    --border: 0 0% 75%; /* Light red for borders */
+    --input: 0 0% 75%;
+    --ring: 0 0% 15%; /* Darker for focus ring */
+    --chart-1: 0 80% 55%; /* Slightly more intense chart reds */
+    --chart-2: 10 90% 60%;
+    --chart-3: 20 85% 70%;
+    --chart-4: 350 85% 55%;
+    --chart-5: 330 90% 65%;
     --radius: 0.5rem;
   }
   .dark {
-    --background: 0 0% 10%; /* Dark reddish background */
+    --background: 0 0% 10%; /* Darker reddish background */
     --foreground: 0 0% 100%;
     --card: 0 0% 15%;
     --card-foreground: 0 0% 100%;
     --popover: 0 0% 15%;
     --popover-foreground: 0 0% 100%;
-    --primary: 0 80% 60%;
+    --primary: 0 90% 55%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 0 0% 20%; /* Dark grey-red */
+    --secondary: 0 0% 25%; /* Darker grey-red */
     --secondary-foreground: 0 0% 100%;
-    --muted: 0 10% 30%; /* Muted dark red */
-    --muted-foreground: 0 0% 70%;
-    --accent: 0 60% 65%;
+    --muted: 0 15% 35%; /* Richer muted dark red */
+    --muted-foreground: 0 0% 75%;
+    --accent: 0 70% 65%;
     --accent-foreground: 0 0% 100%;
-    --destructive: 0 70% 40%;
+    --destructive: 0 85% 45%; /* Deeper red for destructive */
     --destructive-foreground: 0 0% 100%;
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
+    --border: 0 0% 25%;
+    --input: 0 0% 25%;
     --ring: 0 0% 80%; /* Light reddish ring */
-    --chart-1: 0 80% 50%;
-    --chart-2: 10 60% 50%;
-    --chart-3: 20 50% 50%;
-    --chart-4: 345 75% 55%;
-    --chart-5: 325 70% 60%;
+    --chart-1: 0 90% 55%;
+    --chart-2: 10 70% 55%;
+    --chart-3: 20 60% 55%;
+    --chart-4: 345 85% 55%;
+    --chart-5: 325 75% 65%;
   }
 }
 
@@ -69,4 +69,7 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+.adlery-pro {
+  font-family: var(--font-adlery-pro);
 }
