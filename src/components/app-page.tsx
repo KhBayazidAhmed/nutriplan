@@ -96,7 +96,7 @@ export function BlockPage() {
 
         <section className="mb-12 md:mb-16">
           <h2 className="text-2xl md:text-3xl font-semibold mb-6 md:mb-8 text-center">
-            Why Choose NutriPlan?
+            Why Choose Dailybowl?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {[
