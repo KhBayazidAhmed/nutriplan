@@ -56,7 +56,7 @@ export default function BlockPage() {
             <Card key={plan.name} className="flex flex-col">
               <CardHeader>
                 <CardTitle>{plan.name}</CardTitle>
-                <CardDescription>${plan.price}/month</CardDescription>
+{/*                 <CardDescription>${plan.price}/month</CardDescription> */}
               </CardHeader>
               <CardContent className="flex-grow">
                 <ul className="list-disc list-inside space-y-2">
